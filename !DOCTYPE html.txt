@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<p>This is a paragraph</p>
+</html>
+
+<! DOCTYPE html>
+<html>
+	<title>This is the title</title>
+	<body>This is the body</body>
+</html>
