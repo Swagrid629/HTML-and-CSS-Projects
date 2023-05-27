@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Guardians! | Enlist</title>
+		<link rel="stylesheet" href="./CSS/shared.css">
+		<link rel="stylesheet" href="./CSS/animations.css">
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>RESERVATION</li></a>
@@ -23,8 +25,8 @@
 		
 		<!--HOME -->
 		<div id="home">
-			<div>
-				<div>
+			<div class="container">
+				<div class="text-center">
 					<span>Guardians</span>
 				</div>
 			</div>
@@ -32,16 +34,16 @@
 		<!--END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery>
+		<section id="gallery>
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/Thumbnail_1.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have space launcher departing daily, book your flight today!</p>
 							</div>
@@ -50,10 +52,10 @@
 					<!-- PHOTO-CONTAINER 1 -->
 					
 					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/Thumbnail_2.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have space launcher departing daily, book your flight today!</p>
 							</div>
@@ -62,10 +64,10 @@
 					<!-- PHOTO-CONTAINER 2 -->
 					
 					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/Thumbnail_3.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have space launcher departing daily, book your flight today!</p>
 							</div>
@@ -74,10 +76,10 @@
 					<!-- PHOTO-CONTAINER 3 -->
 					
 					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/Thumbnail_4.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have space launcher departing daily, book your flight today!</p>
 							</div>
@@ -86,10 +88,10 @@
 					<!-- PHOTO-CONTAINER 4 -->
 					
 					<!-- PHOTO-CONTAINER 5 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/Thumbnail_5.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have space launcher departing daily, book your flight today!</p>
 							</div>
@@ -98,10 +100,10 @@
 					<!-- PHOTO-CONTAINER 5 -->
 					
 					<!-- PHOTO-CONTAINER 6 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/Thumbnail_6.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have space launcher departing daily, book your flight today!</p>
 							</div>
@@ -110,10 +112,10 @@
 					<!-- PHOTO-CONTAINER 6 -->
 					
 					<!-- PHOTO-CONTAINER 7 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/Thumbnail_7.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have space launcher departing daily, book your flight today!</p>
 							</div>
@@ -122,10 +124,10 @@
 					<!-- PHOTO-CONTAINER 7 -->
 					
 					<!-- PHOTO-CONTAINER 8 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/Thumbnail_8.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have space launcher departing daily, book your flight today!</p>
 							</div>
@@ -134,10 +136,10 @@
 					<!-- PHOTO-CONTAINER 8 -->
 					
 					<!-- PHOTO-CONTAINER 9 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/Thumbnail_9.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have space launcher departing daily, book your flight today!</p>
 							</div>
@@ -151,15 +153,18 @@
 			<!-- END GALLERY -->
 					
 					<!-- RSVP -->
-					<section>
-						<div id="contact">
-							<div>
-								<h1>Resrvation</h1>
-								<div>
-									<h2><span>Your adventure is just around the moon.<span>
-										<br />Reserve your flight today!
+					<section id="contact">
+						<div class="container">
+							<div class="heading-padding">
+								<h1 class="hading-padding">Resrvation</h1>
+								<div class="reservation">
+									<h2>
+										<span>Your adventure is just around the moon.<span>
+										<br/>Reserve your flight today!
 									</h2>
-									<p>
+									<p class="rsvp-text">
+										please provide basic contact information
+									</p>
 									<div>
 										<form action="" method="post">
 											<input class="rsvp" type="text" value="First name">
@@ -181,8 +186,8 @@
 					<!--END RSVP -->
 					
 					<!-- FOOTER -->
-					<div>
-						www.spacestations=.spacer
+					<div id="footer">
+						www.spacestations.com &nbsp;|&nbsp; &copy; 2016
 					</div>
 					<!-- END FOOTER -->
 									

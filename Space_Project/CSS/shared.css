@@ -104,7 +104,7 @@ section {
 navbar::after {
     clear: both;
     display: table;
-    content: "";
+    content: " ";
 }
 
 .wrap {
@@ -120,13 +120,13 @@ navbar::after {
 .menu-container {
     max-height: 340px;
     margin: 0% auto;
-    content:"";
+    content:" ";
     width: 100%;
     position: fixed;
     z-index: 100;
 }
  #home { 
-    background: url(../Images/Thumb/Background_Thumbnail.jpg);
+    background: url(../Images/Thumb/Background_Thumbnail.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
