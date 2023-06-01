@@ -129,7 +129,6 @@ navbar::after {
 }
  #home { 
     background: url(../Images/Thumb/Background_Thumbnail.jpg) no-repeat 50% 50%;
-    background: url(../Images/Thumb/Background_Thumbnail.jpg);
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
