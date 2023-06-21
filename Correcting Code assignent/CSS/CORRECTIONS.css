@@ -4,7 +4,7 @@ body {
 }
 
 heading 2 {
-    
+    font: bold;
 }
 logo {
    width: 600px;
