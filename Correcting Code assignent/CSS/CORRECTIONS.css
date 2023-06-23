@@ -1,0 +1,12 @@
+body {
+    color: darkblue;
+    background-color: lightblue;
+}
+
+heading 2 {
+    font: bold;
+}
+logo {
+   width: 600px;
+   height: 300px;
+}
